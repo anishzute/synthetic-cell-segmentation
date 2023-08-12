@@ -2,7 +2,7 @@
 
 This project provides a graphical user interface (GUI) to generate and segment images of cells. It uses custom sliders to control various parameters of the generated images and applies segmentation techniques to identify individual cells.
 
-![Sample Image](images/sample.png) <!-- You can include an image if available -->
+![Sample Image](images/sample.png)
 
 ## Features
 
@@ -63,6 +63,11 @@ python src/main.py
 ```
 
 Use the sliders and buttons in the GUI to generate and segment cell images according to your preferences.
+
+## Thoughts and Improvements
+
+I see several avenues for improvement and expansion. One significant enhancement would be to integrate a Convolutional Neural Network (CNN) to perform cell segmentation or classification. Training a CNN would allow for more accurate and automated identification of cell structures, potentially improving both the speed and precision of the process. I could also work on optimizing the existing code, perhaps by refactoring some functions for better modularity or introducing parallel processing for more efficient execution. Adding a user-friendly GUI with more customization options for researchers or medical professionals might enhance the tool's usability. I would also add the ability to batch generate images and save them to files. Additionally, incorporating data analytics and visualization tools would provide insightful metrics and trends related to the cell data. By investing time in these improvements, I believe the project could evolve into a more comprehensive and powerful tool for cell image analysis.
+
 
 ## Contributing
 
