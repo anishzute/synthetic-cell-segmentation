@@ -59,7 +59,7 @@ class GenerateSliderFrame(ctk.CTkFrame):
         self.noise_mean_slider, self.noise_mean_label, self.noise_mean_val = self.create_slider("Noise Mean", self.shared_vars.noise_mean, 0, 1, 0,9)
 
         # Warning text with some limitations and guidelines
-        warning_text = "Note: There are some limitations in the interest of time.\n - Error handling has not been fully implemented. \n - Make sure to set the min_size and min_intensity to < the respective maximum values.\n - GUI scaling can have some issues if the aspect ratio is too far from square."
+        warning_text = "Note: There are some limitations in the interest of time.\n - Error handling has not been fully implemented. \n - Make sure to set the min_size and min_intensity to < the respective maximum values.\n - GUI scaling can have some issues if the aspect ratio is too far from square.\n - Kernel size must be set to an odd integer\n - Image segmentation may take a while for large images or many cells"
         self.warning = ctk.CTkLabel(self, text=warning_text, fg_color="gray30", corner_radius=6, justify="left", pady=10)
         self.warning.grid(row=10, column=0, padx=10, pady=(10, 0), sticky="w", columnspan=3)
 
