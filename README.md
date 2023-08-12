@@ -13,7 +13,15 @@ This project provides a graphical user interface (GUI) to generate and segment i
 
 ## Installation
 
-### Prerequisites
+### Option 1: Download the Executable (Windows)
+
+1. Download the latest executable from the [Releases](https://github.com/yourusername/synthetic_cell_segmentation/releases) page.
+2. Unzip the downloaded file.
+3. Run `synthetic_cell_segmentation.exe` to launch the application.
+
+### Option 2: Build from Python Source
+
+#### Prerequisites
 
 - Python 3.x
 - PIL (Pillow)
@@ -24,7 +32,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
 - customtkinter
 - tkinter
 
-### Install Dependencies
+#### Install Dependencies
 
 1. Clone the repository:
 
@@ -45,6 +53,8 @@ This project provides a graphical user interface (GUI) to generate and segment i
    \`\`\`
 
 ## Usage
+
+Simply double-click on `synthetic_cell_segmentation.exe` to launch the application. You may need to click
 
 Run the main script to launch the GUI:
 
