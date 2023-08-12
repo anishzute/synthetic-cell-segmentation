@@ -15,7 +15,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
 
 ### Option 1: Download the Executable (Windows)
 
-1. Download the latest executable from the [Releases](https://github.com/yourusername/synthetic_cell_segmentation/releases) page.
+1. Download the latest executable from the [Releases](https://github.com/anishzute/synthetic_cell_segmentation/releases) page.
 2. Unzip the downloaded file.
 3. Run `synthetic_cell_segmentation.exe` to launch the application.
 
@@ -36,21 +36,21 @@ This project provides a graphical user interface (GUI) to generate and segment i
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/synthetic_cell_segmentation.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
 
-   \`\`\`bash
+   ```bash
    cd synthetic_cell_segmentation
-   \`\`\`
+   ```
 
 3. Install the required packages:
 
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -58,9 +58,9 @@ Simply double-click on `synthetic_cell_segmentation.exe` to launch the applicati
 
 Run the main script to launch the GUI:
 
-\`\`\`bash
+```bash
 python src/main.py
-\`\`\`
+```
 
 Use the sliders and buttons in the GUI to generate and segment cell images according to your preferences.
 
