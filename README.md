@@ -16,8 +16,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
 ### Option 1: Download the Executable (Windows)
 
 1. Download the latest executable from the [Releases](https://github.com/anishzute/synthetic-cell-segmentation/releases) page.
-2. Unzip the downloaded file.
-3. Run `synthetic_cell_segmentation.exe` to launch the application.
+2. Run `synthetic_cell_segmentation.exe` to launch the application.
 
 ### Option 2: Build from Python Source
 
@@ -52,9 +51,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
    pip install -r requirements.txt
    ```
 
-## Usage
-
-Simply double-click on `synthetic-cell-segmentation.exe` to launch the application. You may need to click
+#### Usage
 
 Run the main script to launch the GUI:
 
