@@ -38,6 +38,12 @@ class App(ctk.CTk):
 ctk.set_appearance_mode("dark")  # Modes: system (default), light, dark
 ctk.set_default_color_theme("blue")
 
+
 # Create an instance of the App class and start the main loop
 app = App()
+
+#define window closing kill functionality
+app.protocol("WM_DELETE_WINDOW", app.destroy)
+app.bind('<Escape>', lambda e: app.destroy())
+
 app.mainloop()
