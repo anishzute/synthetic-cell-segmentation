@@ -15,7 +15,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
 
 ### Option 1: Download the Executable (Windows)
 
-1. Download the latest executable from the [Releases](https://github.com/anishzute/synthetic_cell_segmentation/releases) page.
+1. Download the latest executable from the [Releases](https://github.com/anishzute/synthetic-cell-segmentation/releases) page.
 2. Unzip the downloaded file.
 3. Run `synthetic_cell_segmentation.exe` to launch the application.
 
@@ -37,7 +37,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/synthetic_cell_segmentation.git
+   git clone https://github.com/yourusername/synthetic-cell-segmentation.git
    ```
 
 2. Navigate to the project directory:
@@ -54,7 +54,7 @@ This project provides a graphical user interface (GUI) to generate and segment i
 
 ## Usage
 
-Simply double-click on `synthetic_cell_segmentation.exe` to launch the application. You may need to click
+Simply double-click on `synthetic-cell-segmentation.exe` to launch the application. You may need to click
 
 Run the main script to launch the GUI:
 
