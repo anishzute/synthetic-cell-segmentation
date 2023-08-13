@@ -2,6 +2,7 @@ import customtkinter as ctk
 from shared_variables import SharedVariables
 from slider_frames import GenerateSliderFrame, SegmentSliderFrame
 from image_frame import ImageFrame
+import sys
 
 class App(ctk.CTk):
     def __init__(self):
@@ -43,7 +44,11 @@ ctk.set_default_color_theme("blue")
 app = App()
 
 #define window closing kill functionality
-app.protocol("WM_DELETE_WINDOW", app.destroy)
-app.bind('<Escape>', lambda e: app.destroy())
+# app.protocol("WM_DELETE_WINDOW", app.destroy)
+# app.bind('<Escape>', lambda e: app.destroy())
+
+# app.destroy is leaving the process running for some reason in my pyinstaller build, so using sys.exit temporarily instead.
+app.protocol("WM_DELETE_WINDOW", sys.exit)
+app.bind('<Escape>', lambda e: sys.exit())
 
 app.mainloop()
